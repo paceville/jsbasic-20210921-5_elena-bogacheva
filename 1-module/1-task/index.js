@@ -9,8 +9,6 @@ function factorial(n) {
       break;
 
       case 0:
-
-     // case 1:
         fact = 1;
         break;
 
@@ -21,7 +19,7 @@ function factorial(n) {
           fact = fact * (n - i);
         }
 
-        break
+        break;
 
   }
 
