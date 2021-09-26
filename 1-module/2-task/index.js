@@ -14,31 +14,14 @@ function isValid(name) {
   let validName = false;
 
   if (name != null) {
-  
-
     let arr = name.split('');
 
     if ((arr.length > 3)
-  && (arr.every(element => element != ''))
-  && (arr.every(element => element != ' '))) {
-    validName = true;
+    && (arr.every(element => element != ''))
+    && (arr.every(element => element != ' '))) {
+      validName = true;
+    }
   }
-  }
-  
-  
-
-  
-
-  // if (arr.length > 3) {
-  //   if (arr.every(element => element != '')) {
-  //     if (arr.every(element => element != ' ')) {
-  //       validName = true;
-  //     }
-  //   }
-  // }
-
-  
-  
 
   return validName;
 }
